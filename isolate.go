@@ -83,7 +83,7 @@ type CompileOptions struct {
 	Mode CompileMode
 }
 
-// CompileUnboundScript will create an UnboundScript (i.e. context-indepdent)
+// CompileUnboundScript will create an UnboundScript (i.e. context-independent)
 // using the provided source JavaScript, origin (a.k.a. filename), and options.
 // If options contain a non-null CachedData, compilation of the script will use
 // that code cache.
